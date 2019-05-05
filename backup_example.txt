@@ -1,0 +1,1 @@
+tar czvf backup/2019-04-27-snapshot-a.tgz --exclude='temp' --exclude='node_modules' --exclude='backup' .

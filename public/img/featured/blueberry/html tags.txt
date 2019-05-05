@@ -1,0 +1,26 @@
+<picture>
+<img
+sizes="(max-width: 2048px) 100vw, 2048px"
+srcset="
+blueberry_rrl81b_c_scale,w_200.jpg 200w,
+blueberry_rrl81b_c_scale,w_469.jpg 469w,
+blueberry_rrl81b_c_scale,w_666.jpg 666w,
+blueberry_rrl81b_c_scale,w_822.jpg 822w,
+blueberry_rrl81b_c_scale,w_1208.jpg 1208w,
+blueberry_rrl81b_c_scale,w_1206.jpg 1206w,
+blueberry_rrl81b_c_scale,w_1307.jpg 1307w,
+blueberry_rrl81b_c_scale,w_1402.jpg 1402w,
+blueberry_rrl81b_c_scale,w_1482.jpg 1482w,
+blueberry_rrl81b_c_scale,w_1562.jpg 1562w,
+blueberry_rrl81b_c_scale,w_1638.jpg 1638w,
+blueberry_rrl81b_c_scale,w_1718.jpg 1718w,
+blueberry_rrl81b_c_scale,w_1783.jpg 1783w,
+blueberry_rrl81b_c_scale,w_1850.jpg 1850w,
+blueberry_rrl81b_c_scale,w_1913.jpg 1913w,
+blueberry_rrl81b_c_scale,w_1975.jpg 1975w,
+blueberry_rrl81b_c_scale,w_2035.jpg 2035w,
+blueberry_rrl81b_c_scale,w_2044.jpg 2044w,
+blueberry_rrl81b_c_scale,w_2048.jpg 2048w"
+src="blueberry_rrl81b_c_scale,w_2048.jpg"
+alt="">
+</picture>

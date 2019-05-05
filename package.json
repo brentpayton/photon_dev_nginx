@@ -1,0 +1,39 @@
+{
+  "name": "dev.photon",
+  "version": "1.0.0",
+  "description": "Photon-art.com development site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brentpayton/photon_dev.git"
+  },
+  "author": "Brent Payton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brentpayton/photon_dev/issues"
+  },
+  "homepage": "https://github.com/brentpayton/photon_dev#readme",
+  "dependencies": {
+    "broken-link-checker": "^0.7.4",
+    "compression": "^1.6.2",
+    "express": "^4.14.1",
+    "express-handlebars": "^3.0.0",
+    "grunt": "^1.0.1",
+    "grunt-bootlint": "^0.10.1",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-html": "^8.3.1",
+    "grunt-link-checker": "^0.2.0",
+    "grunt-run": "^0.6.0",
+    "lg-fullscreen": "^1.0.1",
+    "lg-hash": "^1.0.1",
+    "lg-thumbnail": "^1.0.2",
+    "lg-zoom": "^1.0.4",
+    "lightgallery": "^1.3.8",
+    "netjet": "^1.1.3",
+    "spdy": "^3.4.4"
+  }
+}
