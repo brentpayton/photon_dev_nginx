@@ -1,0 +1,52 @@
+BODY {
+	background-color : White;
+	color : Black;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-style : normal;
+	font-variant : normal;
+	font-weight : normal;
+}
+
+.grid-img{
+    margin : 5px;
+    width : 75px;
+}
+
+.grid-img-lg{
+    margin-left: auto;
+    margin-right: auto;
+    width : 200px;
+}
+
+.col-style-orange{
+    background: #ff6a00
+}
+
+.col-style-red{
+    background: #ff0000
+}
+
+.col-style-green{
+    background: #4cff00
+}
+
+.col-style-blue{
+    background: #0094ff
+}
+
+.col-style-gray{
+    background: #C0C0C0
+}
+
+.fadeImg{
+    opacity: 0.5;
+}
+
+.active{
+	opacity: 0.5;
+}
+
+.navbar-active, .navbar-active>li>a:hover{
+	background: #ff6a00 !important;
+	color: black !important;
+}
