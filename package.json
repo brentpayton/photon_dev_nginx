@@ -1,0 +1,30 @@
+{
+  "name": "dev-photon-nginx",
+  "version": "1.0.0",
+  "description": "dev.photon-art.com",
+  "main": "gruntfile.js",
+  "dependencies": {
+    "blc": "0.0.5",
+    "grunt-bootlint": "^0.12.2",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-html": "^10.1.0",
+    "grunt-link-checker": "^0.2.0",
+    "grunt-run": "^0.8.1",
+    "wget": "^0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "grunt run:test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brentpayton/photon_dev_nginx.git"
+  },
+  "author": "Brent Payton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brentpayton/photon_dev_nginx/issues"
+  },
+  "homepage": "https://github.com/brentpayton/photon_dev_nginx#readme"
+}

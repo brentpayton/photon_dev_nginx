@@ -17,13 +17,13 @@ grunt.initConfig({
 			cmd: 'wget',
 			args: [
 				'--config=wgetrc',
-				'photon-art.com'
+				'dev.photon-art.com'
 			]
 		},
 		blc: {
 			cmd: './node_modules/.bin/blc',
 			args: [
-				'https://photon-art.com',
+				'https://dev.photon-art.com',
 				'--filter-level 3 ',
 				'--ordered ',
 				'--recursive ',
@@ -58,7 +58,7 @@ grunt.initConfig({
 			maxConcurrency: 20
 		},
 	  default: {
-	    site: 'photon-art.com',
+	    site: 'dev.photon-art.com',
 	    options: {
 	      initialPort: 443
 	    }
