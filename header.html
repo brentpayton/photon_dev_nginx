@@ -28,6 +28,26 @@
   <script>
     document.createElement( "picture" );
   </script>
+
+  <!-- cookieconsent.insites.com -->
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#eb6c44",
+        "text": "#ffffff"
+      },
+      "button": {
+        "background": "#f5d948"
+      }
+    },
+    "theme": "edgeless"
+  })});
+  </script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/picturefill/3.0.3/picturefill.js" integrity="sha256-uttYJd+gaT1hgbYhYhGbIeFa1yK6JRnE6TVRZXroqIM=" crossorigin="anonymous"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" integrity="sha256-0rguYS0qgS6L4qVzANq4kjxPLtvnp5nn2nB5G1lWRv4=" crossorigin="anonymous"></script>
