@@ -42,11 +42,6 @@ BODY {
     opacity: 0.5;
 }
 
-.active{
-	opacity: 0.5;
-}
-
-.navbar-active, .navbar-active>li>a:hover{
-	background: #ff6a00 !important;
-	color: black !important;
+.active  {
+    background: orange;
 }

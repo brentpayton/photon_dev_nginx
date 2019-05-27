@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
   $('#lightgallery').lightGallery({
       selector: '.light-link',
       thumbnail : true,
@@ -13,26 +14,34 @@ $(document).ready(function() {
   $('.light-link').mouseenter(function() {
     $(this).addClass('fadeImg');
   });
+
   $('.light-link').mouseleave(function() {
     $(this).removeClass('fadeImg');
   });
+
   if (location.pathname === '/') {
-    $(".nav").find(".home").addClass("navbar-active");
+    $(".nav").find(".home").addClass("active");
   }
-  if (location.pathname === '/nature') {
-    $(".nav").find(".nature").addClass("navbar-active");
+
+  if (location.pathname === '/nature.html') {
+    $(".nav").find(".nature").addClass("active");
   }
-  if (location.pathname === '/travel') {
-    $(".nav").find(".travel").addClass("navbar-active");
+
+  if (location.pathname === '/travel.html') {
+    $(".nav").find(".travel").addClass("active");
   }
-  if (location.pathname === '/other') {
-    $(".nav").find(".other").addClass("navbar-active");
+
+  if (location.pathname === '/other.html') {
+    $(".nav").find(".other").addClass("active");
   }
-  if (location.pathname === '/about') {
-    $(".nav").find(".about").addClass("navbar-active");
+
+  if (location.pathname === '/about.html') {
+    $(".nav").find(".about").addClass("active");
   }
+
   $(".nav a").on("click", function(){
-     $(".nav").find(".active").removeClass("navbar-active");
-     //$(this).parent().addClass("navbar-active");
+     $(".nav").find(".active").removeClass("active");
+     //$(this).parent().addClass("active");
   });
+
 });
